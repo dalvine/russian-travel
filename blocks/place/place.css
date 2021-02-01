@@ -1,0 +1,59 @@
+.place {
+  margin: 0 auto;
+  padding-bottom: 80px;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: fit-content(460px) 40px minmax(-webkit-min-content, 484px);
+  -ms-grid-columns: fit-content(460px) 40px minmax(min-content, 484px);
+  grid-template-columns: fit-content(460px) minmax(-webkit-min-content, 484px);
+  grid-template-columns: fit-content(460px) minmax(min-content, 484px);
+  -ms-grid-rows: minmax(-webkit-min-content, -webkit-max-content) 48px minmax(-webkit-min-content, -webkit-max-content);
+  -ms-grid-rows: minmax(min-content, max-content) 48px minmax(min-content, max-content);
+  grid-template-rows: repeat(2, minmax(-webkit-min-content, -webkit-max-content));
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  grid-gap: 48px 40px;
+
+}.place > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+
+}.place > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+
+}.place > *:nth-child(3) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+
+}.place > *:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+
+}
+
+.place:last-child {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1140px) {
+  .place {
+    grid-gap: 48px 30px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .place {
+    padding-bottom: 73px;
+    grid-gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .place {
+    -ms-grid-columns: 288px;
+    grid-template-columns: 288px;
+    padding-bottom: 64px;
+    grid-gap: 32px;
+  }
+}
