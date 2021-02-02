@@ -7,3 +7,21 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 1140px) {
+  .header{
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .header{
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header{
+    width: calc(100% - 32px);
+  }
+}

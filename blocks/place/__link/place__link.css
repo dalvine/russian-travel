@@ -1,6 +1,9 @@
 .place__link {
   color: white;
   text-decoration: underline;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
 }
 
 .place__link:hover {
