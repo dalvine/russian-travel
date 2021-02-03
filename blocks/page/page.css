@@ -1,7 +1,7 @@
 .page {
   margin: 0 auto;
   max-width: 1280px;
-  background-color: hsl(216, 6%, 17%);
+  background-color: #2A2C2F;
   font-family: 'Inter', Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

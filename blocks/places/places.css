@@ -1,9 +1,6 @@
 .places {
-  list-style: none;
   margin: 0 auto;
   padding: 92px 0 0 0;
-  display: flex;
-  flex-direction: column;
   width: calc(100% - 296px);
 }
 

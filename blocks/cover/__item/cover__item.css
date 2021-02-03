@@ -16,6 +16,27 @@
           align-items: center;
   text-decoration: none;
   color: white;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.cover__item::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2A2C2F;
+  opacity: .3;
+}
+
+.cover__item:hover::before {
+  opacity: .8;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 @media screen and (max-width: 1140px) {

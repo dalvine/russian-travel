@@ -1,0 +1,5 @@
+.lang-list {
+  min-width: 30px;
+  margin: 0;
+  display: flex;
+}

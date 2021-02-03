@@ -1,15 +1,16 @@
 .footer__link {
+  margin: 0;
   text-decoration: none;
   color: white;
-  margin-left: 18px;
+  /* margin-left: 18px; */
   font-weight: normal;
   font-size: 16px;
   line-height: 1.12;
 }
 
-.footer__link:first-child {
+/* .footer__link:first-child {
   margin-left: 0;
-}
+} */
 
 .footer__link:hover {
   opacity: .8;
@@ -18,7 +19,7 @@
 
 @media screen and (max-width: 720px) {
   .footer__link {
-    margin-left: 0;
+    /* margin-left: 0; */
     margin-top: 32px;
   }
 

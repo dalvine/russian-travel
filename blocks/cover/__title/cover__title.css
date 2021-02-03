@@ -1,6 +1,7 @@
 .cover__title {
   max-width: 560px;
   margin: 0;
+  position: relative;
   text-align: center;
   text-rendering: optimizeLegibility;
   font-weight: 900;
