@@ -51,4 +51,4 @@
 ---
 **Контакты для связи:**
 
-Telegram - [@mrgreshnik](teleg.run/mrgreshnik "Открыть в телеграме")
+Telegram - [@PUTMbI](teleg.run/PUTMbI "Открыть в телеграме")
